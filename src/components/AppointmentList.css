@@ -1,0 +1,103 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #28a745;
+  color: white;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.appointment-table th,
+.appointment-table td {
+  border: 2px solid beige;
+  padding: 10px;
+  text-align: left;
+}
+
+.appointment-table thead {
+  background-color: #28a745;
+}
+
+.edit-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.clear-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-bottom: 1rem;
+}
+.no-Appointment {
+  text-align: center;
+  margin-block: 0.8rem;
+  font-size: large;
+  margin-bottom: 1rem;
+}
+.edit-input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* ensures padding and border stay inside the cell */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 8px; /* optional: adjust as needed */
+}
