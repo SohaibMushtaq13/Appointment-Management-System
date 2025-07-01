@@ -57,3 +57,42 @@ button {
 .button:hover {
   background-color: #218838; /* Darker green on hover */
 }
+
+
+/* Media query for exactly 1317px width */
+  @media (max-width: 1317px) {
+   
+    .form-row input {
+      width: 200px; /* shrink input size */
+      margin-left: -10px;
+    }
+    .form-row label {
+      margin-left: -10px;
+    }
+  }
+  @media (max-width: 906px) {
+   
+    .form-row input {
+      margin-left: -9rem;
+    }
+    .form-row label {
+      margin-left: -20px;
+    }
+  }
+  @media (max-width: 411px) {
+    .form-row{
+      display: flex;
+      justify-content: center;
+      gap: -4px;
+    }
+   
+    .form-row input {
+      margin-left: -16rem;
+      width: 8rem;
+      font-size: 0.8rem;
+    }
+    .form-row label {
+      margin-left: 6px;
+      font-size: 0.8rem;
+    }
+  }
